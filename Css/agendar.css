@@ -1,0 +1,76 @@
+:root {
+    --text-primary: black;
+    --text-secondary: white;
+    --bg-1: rgb(77, 47, 77);
+    --bg-2: rgba(216, 162, 247, 0.904);
+    --bg-img: url(../Icons/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-2);
+}
+
+img {
+    height: 80px;
+    width: 80px;
+}
+
+.home {
+    height: 6rem;
+    width: 100vw;
+    background-color: var(--bg-1);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-container {
+    font-weight: 900;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.form-name {
+    height: 80px;
+}
+
+.form-select {
+    height: 80px; 
+    border-color: var(--bg-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-data {
+    height: 80px; 
+    margin-top: 25px;
+}
+
+.form-hour {
+    height: 80px; 
+}
+
+.btn-schedule > button{
+    color: var(--bg-2);
+    border-color: var(--bg-2);
+    background-color: var(--bg-1);
+    border-radius: 15px;
+    width: 300px;
+    height: 60px;
+}
+
+button:hover {
+    transition: 0.3s linear;
+    background-color: white;
+    cursor: pointer;
+}

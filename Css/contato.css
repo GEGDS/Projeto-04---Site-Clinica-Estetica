@@ -1,0 +1,107 @@
+:root {
+    --text-primary: black;
+    --text-secondary: white;
+    --bg-1: rgb(77, 47, 77);
+    --bg-2: rgba(216, 162, 247, 0.904);
+    --bg-img: url(../Icons/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--bg-2);
+}
+
+img {
+    height: 80px;
+    width: 80px;
+}
+
+.home {
+    height: 6rem;
+    width: 100vw;
+    background-color: var(--bg-1);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container {
+    width: 100vw;
+    height: 80vh; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.tel {
+    border: 3px solid black;
+    height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-1);
+    color: var(--text-secondary);
+}
+
+.email {
+    border: 3px solid black;
+    height: 80px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-1);
+    color: var(--text-secondary);
+    margin-top: 30px;
+}
+
+.github {
+    border: 3px solid black;
+    height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-1);
+    color: var(--text-secondary);
+    margin-top: 30px;
+}
+
+
+.linkedIn {
+    border: 3px solid black;
+    height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-1);
+    color: var(--text-secondary);
+    margin-top: 30px;
+}
+
+
+
+
+h1 {
+    font-weight: 900;
+    font-size: xx-large;
+    color: var(--text-primary);
+
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/agendar.css">
+    <link rel="icon" href="./Icons/book-edit.svg" type="image/png">
+    <title>Agendar</title>
+</head>
+<body>
+    <div class="home">
+        <a href="./home.html"><img src="./Icons/home.svg"></a>
+    </div>
+
+    <div class="form-container">
+      <form>
+        <div class="form-name">
+          <label>Cliente:</label>
+          <input type="text" class="input" required>
+        </div>
+    
+
+        <fieldset>
+          <h2>Procedimento: </h2>
+          <div class="form-select">
+          <select class="select-options">
+            <option>-----</option>
+            <option>Corte feminino</option>
+            <option>Corte Feminino + Escova</option>
+            <option>Escova</option>
+            <option>Hidratação</option>
+            <option>Botox</option>
+            <option>-----</option>
+            <option>Designer Sobrancelhas</option>
+            <option>Corte Feminino + Escova</option>
+            <option>Designer Sobrancelhas com Henna</option>
+            <option>Micropigmentação</option>
+            <option>-----</option>
+            <option>Microagulhamento</option>
+            <option>Lifting Jato Plasma</option>
+            <option>Peeling</option>
+            <option>-----</option>
+            <option>Drenagem Linfática</option>
+            <option>Lipocavitação</option>
+            <option>Detox Corporal</option>
+          </select>
+        </div>
+        </fieldset>
+        
+        <div class="form-data">
+          <label>Data:</label>
+          <input type="date" required>
+        </div>
+
+        <div class="form-hour">
+          <label>Horário:</label>
+          <input type="time" min="08:00" max="20:00" required>
+        </div>
+        
+
+          <div class="btn-schedule">
+            <button type="submit">Agendar</button>                        
+        </div>
+
+      </form>  
+    </div>
+    
+  
+    
+</body>
+</html>
