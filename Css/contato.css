@@ -1,8 +1,13 @@
+@charset "UTF-8";
+
 :root {
     --text-primary: black;
     --text-secondary: white;
-    --bg-1: rgb(77, 47, 77);
-    --bg-2: rgba(216, 162, 247, 0.904);
+    --bg-1: #62366B;
+    --bg-2: #E6BEEE;
+    --bg-3: #D775EB;
+    --bg-4: #6A4971;
+    --bg-5: #A85CB8;
     --bg-img: url(../Icons/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
 }
 
@@ -52,7 +57,7 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--bg-1);
+    background-color: var(--bg-5);
     color: var(--text-secondary);
 }
 
@@ -63,7 +68,7 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--bg-1);
+    background-color: var(--bg-5);
     color: var(--text-secondary);
     margin-top: 30px;
 }
@@ -75,7 +80,7 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--bg-1);
+    background-color: var(--bg-5);
     color: var(--text-secondary);
     margin-top: 30px;
 }
@@ -88,7 +93,7 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--bg-1);
+    background-color: var(--bg-5);
     color: var(--text-secondary);
     margin-top: 30px;
 }

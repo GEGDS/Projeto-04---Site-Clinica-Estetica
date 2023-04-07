@@ -1,8 +1,13 @@
+@charset "UTF-8";
+
 :root {
     --text-primary: black;
     --text-secondary: white;
-    --bg-1: rgb(77, 47, 77);
-    --bg-2: rgba(216, 162, 247, 0.904);
+    --bg-1: #62366B;
+    --bg-2: #E6BEEE;
+    --bg-3: #D775EB;
+    --bg-4: #6A4971;
+    --bg-5: #A85CB8;
     --bg-img: url(../Icons/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
 }
 
@@ -18,7 +23,7 @@ img {
 
 .title {
     height: 10rem;
-    width: 100vw;
+    width: 99vw;
     background-color: var(--bg-1);
 
     display: flex;
@@ -34,7 +39,7 @@ img {
 .menu {
     background-color: var(--bg-2);
     height: 90vh;
-    width: 100vw;
+    width: 99vw;
 
     display: flex;
     flex-wrap: wrap;
@@ -46,6 +51,7 @@ img {
     margin: auto;
     display: flex;
     align-items: center;
+    font-size: 1.6em;
 }
 
 
@@ -60,14 +66,15 @@ a {
     background-color: var(--bg-1);
     font-weight:bolder;
     text-decoration: none;
-    font-size: larger;
+    font-size: 1.2em;
+    padding: 8px;
     border-radius: 15px;
     width: auto;
     height: 60px;
 }
 
 button:hover {
-    transition: 0.3s linear;
+    transition: 0.2s linear;
     background-color: white;
     cursor: pointer;
 }
@@ -82,7 +89,7 @@ footer{
     font-size: larger;
     background-color: var(--bg-1);
     height: 2rem;
-    width: 100vw;
+    width: 99vw;
 }
 
 

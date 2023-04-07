@@ -1,8 +1,13 @@
+@charset "UTF-8";
+
 :root {
     --text-primary: black;
     --text-secondary: white;
-    --bg-1: rgb(77, 47, 77);
-    --bg-2: rgba(216, 162, 247, 0.904);
+    --bg-1: #62366B;
+    --bg-2: #E6BEEE;
+    --bg-3: #D775EB;
+    --bg-4: #6A4971;
+    --bg-5: #A85CB8;
     --bg-img: url(../Icons/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
 }
 
@@ -18,11 +23,12 @@ body {
 img {
     height: 80px;
     width: 80px;
+    padding: 10px;
 }
 
 .home {
     height: 6rem;
-    width: 100vw;
+    width: 99vw;
     background-color: var(--bg-1);
     display: flex;
     justify-content: flex-start;
@@ -37,6 +43,7 @@ img {
     
 }
 
+
 li {
     display: inline-block;
     color: var(--text-secondary);
@@ -47,11 +54,15 @@ li {
 
 li > p {
     margin: 6px;
+    color: var(--bg-4);
 }
 
 li > h2 {
     margin: 6px;
+    color: var(--bg-4);
 }
+
+
 
 .leg {
     font-size: small;
